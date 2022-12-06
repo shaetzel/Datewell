@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD568AE293FEE3400A93C95 /* DatewellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD568AD293FEE3400A93C95 /* DatewellApp.swift */; };
+		ADD568B0293FEE3400A93C95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD568AF293FEE3400A93C95 /* ContentView.swift */; };
+		ADD568B2293FEE3500A93C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD568B1293FEE3500A93C95 /* Assets.xcassets */; };
+		ADD568B5293FEE3500A93C95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD568B4293FEE3500A93C95 /* Preview Assets.xcassets */; };
+		ADD568B7293FEE3500A93C95 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD568B6293FEE3500A93C95 /* Persistence.swift */; };
+		ADD568BA293FEE3500A93C95 /* Datewell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADD568B8293FEE3500A93C95 /* Datewell.xcdatamodeld */; };
+		ADD568C5293FEE3500A93C95 /* DatewellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD568C4293FEE3500A93C95 /* DatewellTests.swift */; };
+		ADD568CF293FEE3500A93C95 /* DatewellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD568CE293FEE3500A93C95 /* DatewellUITests.swift */; };
+		ADD568D1293FEE3500A93C95 /* DatewellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD568D0293FEE3500A93C95 /* DatewellUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD568C1293FEE3500A93C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD568A2293FEE3400A93C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD568A9293FEE3400A93C95;
+			remoteInfo = Datewell;
+		};
+		ADD568CB293FEE3500A93C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD568A2293FEE3400A93C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD568A9293FEE3400A93C95;
+			remoteInfo = Datewell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADD568AA293FEE3400A93C95 /* Datewell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Datewell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD568AD293FEE3400A93C95 /* DatewellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatewellApp.swift; sourceTree = "<group>"; };
+		ADD568AF293FEE3400A93C95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADD568B1293FEE3500A93C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD568B4293FEE3500A93C95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADD568B6293FEE3500A93C95 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		ADD568B9293FEE3500A93C95 /* Datewell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Datewell.xcdatamodel; sourceTree = "<group>"; };
+		ADD568BB293FEE3500A93C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD568C0293FEE3500A93C95 /* DatewellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatewellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD568C4293FEE3500A93C95 /* DatewellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatewellTests.swift; sourceTree = "<group>"; };
+		ADD568CA293FEE3500A93C95 /* DatewellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatewellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD568CE293FEE3500A93C95 /* DatewellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatewellUITests.swift; sourceTree = "<group>"; };
+		ADD568D0293FEE3500A93C95 /* DatewellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatewellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD568A7293FEE3400A93C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD568BD293FEE3500A93C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD568C7293FEE3500A93C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD568A1293FEE3400A93C95 = {
+			isa = PBXGroup;
+			children = (
+				ADD568AC293FEE3400A93C95 /* Datewell */,
+				ADD568C3293FEE3500A93C95 /* DatewellTests */,
+				ADD568CD293FEE3500A93C95 /* DatewellUITests */,
+				ADD568AB293FEE3400A93C95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD568AB293FEE3400A93C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD568AA293FEE3400A93C95 /* Datewell.app */,
+				ADD568C0293FEE3500A93C95 /* DatewellTests.xctest */,
+				ADD568CA293FEE3500A93C95 /* DatewellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD568AC293FEE3400A93C95 /* Datewell */ = {
+			isa = PBXGroup;
+			children = (
+				ADD568AD293FEE3400A93C95 /* DatewellApp.swift */,
+				ADD568AF293FEE3400A93C95 /* ContentView.swift */,
+				ADD568B1293FEE3500A93C95 /* Assets.xcassets */,
+				ADD568B6293FEE3500A93C95 /* Persistence.swift */,
+				ADD568BB293FEE3500A93C95 /* Info.plist */,
+				ADD568B8293FEE3500A93C95 /* Datewell.xcdatamodeld */,
+				ADD568B3293FEE3500A93C95 /* Preview Content */,
+			);
+			path = Datewell;
+			sourceTree = "<group>";
+		};
+		ADD568B3293FEE3500A93C95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADD568B4293FEE3500A93C95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADD568C3293FEE3500A93C95 /* DatewellTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD568C4293FEE3500A93C95 /* DatewellTests.swift */,
+			);
+			path = DatewellTests;
+			sourceTree = "<group>";
+		};
+		ADD568CD293FEE3500A93C95 /* DatewellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD568CE293FEE3500A93C95 /* DatewellUITests.swift */,
+				ADD568D0293FEE3500A93C95 /* DatewellUITestsLaunchTests.swift */,
+			);
+			path = DatewellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD568A9293FEE3400A93C95 /* Datewell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD568D4293FEE3500A93C95 /* Build configuration list for PBXNativeTarget "Datewell" */;
+			buildPhases = (
+				ADD568A6293FEE3400A93C95 /* Sources */,
+				ADD568A7293FEE3400A93C95 /* Frameworks */,
+				ADD568A8293FEE3400A93C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Datewell;
+			productName = Datewell;
+			productReference = ADD568AA293FEE3400A93C95 /* Datewell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD568BF293FEE3500A93C95 /* DatewellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD568D7293FEE3500A93C95 /* Build configuration list for PBXNativeTarget "DatewellTests" */;
+			buildPhases = (
+				ADD568BC293FEE3500A93C95 /* Sources */,
+				ADD568BD293FEE3500A93C95 /* Frameworks */,
+				ADD568BE293FEE3500A93C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD568C2293FEE3500A93C95 /* PBXTargetDependency */,
+			);
+			name = DatewellTests;
+			productName = DatewellTests;
+			productReference = ADD568C0293FEE3500A93C95 /* DatewellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADD568C9293FEE3500A93C95 /* DatewellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD568DA293FEE3500A93C95 /* Build configuration list for PBXNativeTarget "DatewellUITests" */;
+			buildPhases = (
+				ADD568C6293FEE3500A93C95 /* Sources */,
+				ADD568C7293FEE3500A93C95 /* Frameworks */,
+				ADD568C8293FEE3500A93C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD568CC293FEE3500A93C95 /* PBXTargetDependency */,
+			);
+			name = DatewellUITests;
+			productName = DatewellUITests;
+			productReference = ADD568CA293FEE3500A93C95 /* DatewellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD568A2293FEE3400A93C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					ADD568A9293FEE3400A93C95 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					ADD568BF293FEE3500A93C95 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = ADD568A9293FEE3400A93C95;
+					};
+					ADD568C9293FEE3500A93C95 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = ADD568A9293FEE3400A93C95;
+					};
+				};
+			};
+			buildConfigurationList = ADD568A5293FEE3400A93C95 /* Build configuration list for PBXProject "Datewell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD568A1293FEE3400A93C95;
+			productRefGroup = ADD568AB293FEE3400A93C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD568A9293FEE3400A93C95 /* Datewell */,
+				ADD568BF293FEE3500A93C95 /* DatewellTests */,
+				ADD568C9293FEE3500A93C95 /* DatewellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD568A8293FEE3400A93C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD568B5293FEE3500A93C95 /* Preview Assets.xcassets in Resources */,
+				ADD568B2293FEE3500A93C95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD568BE293FEE3500A93C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD568C8293FEE3500A93C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD568A6293FEE3400A93C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD568B7293FEE3500A93C95 /* Persistence.swift in Sources */,
+				ADD568B0293FEE3400A93C95 /* ContentView.swift in Sources */,
+				ADD568AE293FEE3400A93C95 /* DatewellApp.swift in Sources */,
+				ADD568BA293FEE3500A93C95 /* Datewell.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD568BC293FEE3500A93C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD568C5293FEE3500A93C95 /* DatewellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD568C6293FEE3500A93C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD568D1293FEE3500A93C95 /* DatewellUITestsLaunchTests.swift in Sources */,
+				ADD568CF293FEE3500A93C95 /* DatewellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD568C2293FEE3500A93C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD568A9293FEE3400A93C95 /* Datewell */;
+			targetProxy = ADD568C1293FEE3500A93C95 /* PBXContainerItemProxy */;
+		};
+		ADD568CC293FEE3500A93C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD568A9293FEE3400A93C95 /* Datewell */;
+			targetProxy = ADD568CB293FEE3500A93C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADD568D2293FEE3500A93C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD568D3293FEE3500A93C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD568D5293FEE3500A93C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Datewell/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S78QV8539;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Datewell.Datewell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD568D6293FEE3500A93C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Datewell/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S78QV8539;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Datewell.Datewell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADD568D8293FEE3500A93C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S78QV8539;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Datewell.DatewellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Datewell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Datewell";
+			};
+			name = Debug;
+		};
+		ADD568D9293FEE3500A93C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S78QV8539;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Datewell.DatewellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Datewell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Datewell";
+			};
+			name = Release;
+		};
+		ADD568DB293FEE3500A93C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S78QV8539;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Datewell.DatewellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Datewell;
+			};
+			name = Debug;
+		};
+		ADD568DC293FEE3500A93C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S78QV8539;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Datewell.DatewellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Datewell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD568A5293FEE3400A93C95 /* Build configuration list for PBXProject "Datewell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD568D2293FEE3500A93C95 /* Debug */,
+				ADD568D3293FEE3500A93C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD568D4293FEE3500A93C95 /* Build configuration list for PBXNativeTarget "Datewell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD568D5293FEE3500A93C95 /* Debug */,
+				ADD568D6293FEE3500A93C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD568D7293FEE3500A93C95 /* Build configuration list for PBXNativeTarget "DatewellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD568D8293FEE3500A93C95 /* Debug */,
+				ADD568D9293FEE3500A93C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD568DA293FEE3500A93C95 /* Build configuration list for PBXNativeTarget "DatewellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD568DB293FEE3500A93C95 /* Debug */,
+				ADD568DC293FEE3500A93C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADD568B8293FEE3500A93C95 /* Datewell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADD568B9293FEE3500A93C95 /* Datewell.xcdatamodel */,
+			);
+			currentVersion = ADD568B9293FEE3500A93C95 /* Datewell.xcdatamodel */;
+			path = Datewell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADD568A2293FEE3400A93C95 /* Project object */;
+}
